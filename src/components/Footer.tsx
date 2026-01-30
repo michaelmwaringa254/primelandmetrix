@@ -14,10 +14,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-emerald-600 to-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">PM</span>
-              </div>
-              <span className="ml-3 text-xl font-bold">PrimelandMetrix</span>
+              <img
+                src="/primelandmetrix.png"
+                alt="PrimelandMetrix Logo"
+                className="h-10 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Delivering top-tier land surveying, mapping, and metrics services with precision and trust.
